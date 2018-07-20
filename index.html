@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="min.css">
+	<head>
+	
+		<meta charset="utf-8">
+			<title>Online BMI Calculator</title>
+			Calculate your BMI
+			
+	</head>
+	<body>
+		<form>
+			Height: <input type = "text" id="value1">
+			<select id = "unit1">
+				<option value = "Centemeters">Centemeters</option>
+				<option value = "Inchs">Inchs</option>
+			</select><br/>
+			Weight: <input type = "text"id = "value2">
+			<select id = "unit2">
+				<option value = "Kilograms">Kilograms</option>
+				<option value = "lbs/Pounds">lbs/Pounds</option>
+			</select><br/>
+			<button type = "Button" onclick="calc()">Calculate</button>
+		</form>
+		
+		<div id = "result"></div><br/>
+		<div id = "message"></div><br/>
+		<div id = "ideal"></div><br/>
+		
+	</body>
+	<script src = "main.js"></script>
+	
+</html>
